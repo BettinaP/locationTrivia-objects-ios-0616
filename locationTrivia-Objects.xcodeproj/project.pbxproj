@@ -22,6 +22,8 @@
 		D83BAD18192537C20032B44E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D83BAD16192537C20032B44E /* InfoPlist.strings */; };
 		D83BAD24192545130032B44E /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D83BAD23192545130032B44E /* FISAppDelegateSpec.m */; };
 		D83BAD2E192556C10032B44E /* FISLocationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D83BAD2D192556C10032B44E /* FISLocationSpec.m */; };
+		DEE929331D1072EC00B45694 /* FISTrivium.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE929321D1072EC00B45694 /* FISTrivium.m */; };
+		DEE929361D1072F800B45694 /* FISLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE929351D1072F800B45694 /* FISLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		D83BAD17192537C20032B44E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D83BAD23192545130032B44E /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
 		D83BAD2D192556C10032B44E /* FISLocationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISLocationSpec.m; sourceTree = "<group>"; };
+		DEE929311D1072EC00B45694 /* FISTrivium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTrivium.h; sourceTree = "<group>"; };
+		DEE929321D1072EC00B45694 /* FISTrivium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTrivium.m; sourceTree = "<group>"; };
+		DEE929341D1072F800B45694 /* FISLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISLocation.h; sourceTree = "<group>"; };
+		DEE929351D1072F800B45694 /* FISLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,10 @@
 		D83BACFA192537C20032B44E /* locationTrivia-Objects */ = {
 			isa = PBXGroup;
 			children = (
+				DEE929311D1072EC00B45694 /* FISTrivium.h */,
+				DEE929321D1072EC00B45694 /* FISTrivium.m */,
+				DEE929341D1072F800B45694 /* FISLocation.h */,
+				DEE929351D1072F800B45694 /* FISLocation.m */,
 				D83BAD03192537C20032B44E /* FISAppDelegate.h */,
 				D83BAD04192537C20032B44E /* FISAppDelegate.m */,
 				D83BAD06192537C20032B44E /* Images.xcassets */,
@@ -297,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE929331D1072EC00B45694 /* FISTrivium.m in Sources */,
 				D83BAD01192537C20032B44E /* main.m in Sources */,
 				D83BAD05192537C20032B44E /* FISAppDelegate.m in Sources */,
+				DEE929361D1072F800B45694 /* FISLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
